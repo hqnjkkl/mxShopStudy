@@ -42,9 +42,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'users.apps.UsersConfig',
     'DjangoUeditor',
-    'goods.apps.GoodsConfig',
-    'trade.apps.TradeConfig',
-    'user_operation.apps.UserOperationConfig',
     'crispy_forms',
     'django_filters',
     'xadmin',
@@ -92,11 +89,12 @@ WSGI_APPLICATION = 'mxShopStudy.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': "myshopstudy",
+        'NAME': "wisdom_education",
         'USER': 'root',
         'PASSWORD': "123456",
-        'HOST': "localhost",
-        'OPTIONS': {'init_command': 'SET default_storage_engine=INNODB;'}
+        'HOST': "127.0.0.1"
+        # 'OPTIONS': {'init_command': 'SET default_storage_engine=INNODB;'
+        #             }
     }
 
 }
