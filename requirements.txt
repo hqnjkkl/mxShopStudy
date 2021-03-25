@@ -34,7 +34,7 @@ pycryptodome==3.9.7
 PyJWT==1.7.1
 PyMySQL==0.9.3
 pytz==2019.1
-PyYAML==5.1.1
+PyYAML==5.4
 raven==6.10.0
 redis==3.4.1
 requests==2.22.0
